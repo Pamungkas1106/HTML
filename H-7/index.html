@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Registrasi</h1>
+
+    <form>
+        <fieldset> 
+        <legend>Data Diri</legend>
+
+        <br>
+
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required><br>
+
+        <p>Jenis Kelamin:</p>
+        <input type="radio" id="laki" name="gender" value="laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="perempuan">
+        <label for="perempuan">Perempuan</label>
+
+        <br>
+
+        <p>Hobi:</p>
+        <input type="checkbox" id="membaca" name="hobi" value="membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="menulis" name="hobi" value="menulis">
+        <label for="menulis">Menulis</label><br>
+        <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+        <label for="olahraga">Olahraga</label><br>
+        <label for="lainnya">Lainnya:</label><br>
+        <input type="text" id="lainnya" name="hobi"><br>
+
+        <br>
+
+        <label for="kota">Pilih Kota:</label><br>
+        <br>
+        <select id="kota" name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="yogyakarta">Yogyakarta</option>
+            <option value="Lainnya">Lainnya</option>
+
+        </select>
+        
+        <br></br>
+
+                <button type="submit">
+                Daftar
+                </button>
+
+            </fieldset>
+    </form>
+</body>
+</html>
